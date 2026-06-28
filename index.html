@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube Meu Queridinho | Baixe o Aplicativo</title>
+    <meta name="description" content="Acesse o Clube Meu Queridinho e aproveite ofertas e descontos exclusivos. Baixe agora para Android e iOS.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Clube <span>Meu Queridinho</span></h1>
+            </div>
+            <nav class="nav">
+                <a href="#beneficios" class="nav-link">Benefícios</a>
+                <a href="#ofertas" class="nav-link">Ofertas</a>
+                <a href="#numeros" class="nav-link">Nossos Números</a>
+                <a href="#download" class="btn btn-primary-outline">Baixar App</a>
+                <button id="mobile-menu-btn" class="hamburger-btn" aria-label="Abrir Menu">
+                    <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+        
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#beneficios" class="mobile-link">Benefícios</a>
+            <a href="#ofertas" class="mobile-link">Ofertas</a>
+            <a href="#numeros" class="mobile-link">Nossos Números</a>
+        </div>
+    </header>
+
+    <section class="hero" id="download">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h2 class="hero-title">O aplicativo de quem ama <span>economizar</span></h2>
+                <p class="hero-subtitle">O app oficial do Supermercado São Luiz, em Arapiraca (AL). Mais de 30.000 clientes já economizam todo mês com descontos exclusivos, sorteios e ofertas que só existem aqui.</p>
+                <div class="store-buttons">
+                    <a href="https://play.google.com/store/apps/details?id=inovatech.mercafacil.meu.queridinho&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="store-btn google-play">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Disponível no Google Play" width="160">
+                    </a>
+                    <a href="https://apps.apple.com/br/app/meu-queridinho/id6744660219" target="_blank" rel="noopener noreferrer" class="store-btn app-store">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Baixar na App Store" width="160">
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <strong>+ Ofertas</strong>
+                        <span>Todos os dias</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>Gratuito</strong>
+                        <span>Para sempre</span>
+                    </div>
+                </div>
+                <div class="hero-badges">
+                    <span class="badge">✅ 30.272 clientes ativos</span>
+                    <span class="badge">✅ Gratuito para sempre</span>
+                    <span class="badge">✅ +R$ 400 economizados por mês</span>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <video autoplay loop muted playsinline class="phone-video" id="heroVideo">
+                        <source src="assets/videos/supermercadossaoluiz_1774355486_3859895217269133148_5895289781.mp4" type="video/mp4">
+                    </video>
+                    <button id="muteToggle" class="mute-btn" aria-label="Ativar som">
+                        <svg id="muteIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                            <line x1="23" y1="9" x2="17" y2="15"></line>
+                            <line x1="17" y1="9" x2="23" y2="15"></line>
+                        </svg>
+                    </button>
+                </div>
+                <!-- Elementos de design flutuantes -->
+                <div class="floating-badge badge-1">🔥 Ofertas Exclusivas</div>
+                <div class="floating-badge badge-2">✨ Clube de Vantagens</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="beneficios">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por que usar o <span>Meu Queridinho?</span></h2>
+                <p>Tudo o que você precisa para economizar nas suas compras do dia a dia.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-image-wrapper">
+                         <img src="assets/images/IMG_2024.jpg" alt="Interface do App" loading="lazy">
+                    </div>
+                    <h3>Você gasta mais, economiza mais</h3>
+                    <p>Quem usa o clube gasta em média R$ 87 por compra. Quem não usa, R$ 49. São os mesmos preços, mas com descontos ativados só para membros.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image-wrapper">
+                         <img src="assets/images/IMG_2028.jpg" alt="Vantagens do App" loading="lazy">
+                    </div>
+                    <h3>Mais de 30 mil vizinhos já fazem parte</h3>
+                    <p>O Clube Meu Queridinho já tem 30.272 clientes ativos em Arapiraca. Quem entrou cedo, não quer mais sair.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image-wrapper">
+                         <img src="assets/images/IMG_2031.jpg" alt="Compras com App" loading="lazy">
+                    </div>
+                    <h3>Sorteios e vantagens reais</h3>
+                    <p>Participe de campanhas exclusivas, acumule pontos e concorra a prêmios. Tudo dentro do app, sem complicação.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase" id="ofertas">
+        <div class="container showcase-container">
+            <div class="showcase-visual">
+                <video controls preload="metadata" class="showcase-video" poster="assets/images/ale_frame.jpg">
+                    <source src="assets/videos/oqueridinhodacidade_1782217218_3925843339656031279_77703762734.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="showcase-content">
+                <h2>O Queridinho da <span>Cidade</span></h2>
+                <p>Veja como é fácil aproveitar todas as vantagens que o Clube Meu Queridinho preparou para você. Não fique de fora das melhores ofertas da região!</p>
+                
+                <ul class="benefit-list">
+                    <li><span class="check-icon">✓</span> Ofertas atualizadas frequentemente</li>
+                    <li><span class="check-icon">✓</span> Interface intuitiva e limpa</li>
+                    <li><span class="check-icon">✓</span> Notificações para não perder nada</li>
+                </ul>
+
+                <a href="#download" class="btn btn-primary">Quero Fazer Parte</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="scroll-marquee">
+            <div class="scroll-marquee-inner">
+                <img src="assets/images/IMG_2022.jpg" alt="Galeria App" loading="lazy">
+                <img src="assets/images/IMG_2023.jpg" alt="Galeria App" loading="lazy">
+                <img src="assets/images/IMG_2025.jpg" alt="Galeria App" loading="lazy">
+                <img src="assets/images/IMG_2026.jpg" alt="Galeria App" loading="lazy">
+                <img src="assets/images/IMG_2027.jpg" alt="Galeria App" loading="lazy">
+                <img src="assets/images/IMG_2029.jpg" alt="Galeria App" loading="lazy">
+                <!-- Duplicate for seamless scroll -->
+                <img src="assets/images/IMG_2022.jpg" alt="Galeria App" loading="lazy">
+                <img src="assets/images/IMG_2023.jpg" alt="Galeria App" loading="lazy">
+                <img src="assets/images/IMG_2025.jpg" alt="Galeria App" loading="lazy">
+                <img src="assets/images/IMG_2026.jpg" alt="Galeria App" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section class="metrics" id="numeros">
+        <div class="container">
+            <div class="section-header">
+                <h2>Os números <span>não mentem</span></h2>
+                <p>Veja por que Arapiraca já escolheu o Clube Meu Queridinho.</p>
+            </div>
+            <div class="metrics-grid">
+                <div class="metric-item">
+                    <div class="metric-number">30.272</div>
+                    <div class="metric-label">Clientes ativos no clube</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number">43.183</div>
+                    <div class="metric-label">Clientes cadastrados</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number">R$ 454</div>
+                    <div class="metric-label">Gasto médio mensal por membro</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number">61,8%</div>
+                    <div class="metric-label">Do faturamento do São Luiz vem do clube</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-final" id="download-final">
+        <div class="container cta-container">
+            <h2>Pronto para economizar de verdade?</h2>
+            <p class="cta-urgency">🔥 Novas ofertas toda semana. Não fique de fora.</p>
+            <div class="store-buttons cta-buttons">
+                <a href="https://play.google.com/store/apps/details?id=inovatech.mercafacil.meu.queridinho&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="btn btn-primary store-btn-text">
+                    <span>Quero fazer parte</span> <small>(Play Store)</small>
+                </a>
+                <a href="https://apps.apple.com/br/app/meu-queridinho/id6744660219" target="_blank" rel="noopener noreferrer" class="btn btn-primary-outline store-btn-text">
+                    <span>Baixar para iPhone</span> <small>(App Store)</small>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h2>Clube <span>Meu Queridinho</span></h2>
+                <p>Economia inteligente na palma da sua mão.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Baixe Agora</h4>
+                    <a href="https://play.google.com/store/apps/details?id=inovatech.mercafacil.meu.queridinho&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">Android (Play Store)</a>
+                    <a href="https://apps.apple.com/br/app/meu-queridinho/id6744660219" target="_blank" rel="noopener noreferrer">iOS (App Store)</a>
+                </div>
+                <div class="link-group">
+                    <h4>Navegação</h4>
+                    <a href="#beneficios">Benefícios</a>
+                    <a href="#ofertas">Ofertas</a>
+                    <a href="#numeros">Nossos Números</a>
+                </div>
+                <div class="link-group">
+                    <h4>Contato</h4>
+                    <a href="https://wa.me/5582999880192" target="_blank" rel="noopener noreferrer">WhatsApp: (82) 99988-0192</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Clube Meu Queridinho. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
