@@ -1,5 +1,5 @@
 /* =========================================
-   Design System & Variáveis Globais
+   Design System & VariÃ¡veis Globais
    ========================================= */
 :root {
     --primary-color: #e63946;
@@ -57,7 +57,7 @@ a {
 }
 
 /* =========================================
-   Botões
+   BotÃµes
    ========================================= */
 .btn {
     display: inline-block;
@@ -312,7 +312,7 @@ a {
     z-index: 2;
     transform: rotate(-5deg);
     transition: var(--transition);
-    /* Correção segura para cantos do vídeo sem quebrar o layout */
+    /* CorreÃ§Ã£o segura para cantos do vÃ­deo sem quebrar o layout */
     -webkit-transform: rotate(-5deg) translateZ(0); 
 }
 
@@ -327,7 +327,7 @@ a {
     object-fit: cover;
     border-radius: 28px;
     -webkit-mask-image: -webkit-radial-gradient(white, black);
-    /* Força o arredondamento nativo na tag de vídeo */
+    /* ForÃ§a o arredondamento nativo na tag de vÃ­deo */
 }
 
 .mute-btn {
@@ -387,7 +387,7 @@ a {
 }
 
 /* =========================================
-   Seção de Benefícios (Features)
+   SeÃ§Ã£o de BenefÃ­cios (Features)
    ========================================= */
 .features {
     padding: 120px 0;
@@ -460,7 +460,7 @@ a {
 }
 
 /* =========================================
-   Showcase Section (Vídeo Extra)
+   Showcase Section (VÃ­deo Extra)
    ========================================= */
 .showcase {
     padding: 120px 0;
@@ -623,7 +623,7 @@ a {
 }
 
 /* =========================================
-   Métricas e CTA Final
+   MÃ©tricas e CTA Final
    ========================================= */
 .metrics {
     padding: 100px 0;
@@ -708,8 +708,13 @@ a {
         justify-content: center;
     }
 
+    .hero-stats {
+        justify-content: center;
+    }
+
     .hero-badges {
         align-items: center;
+        text-align: center;
         margin-bottom: 40px;
     }
 
@@ -728,7 +733,12 @@ a {
 
 @media (max-width: 768px) {
     .logo h1 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        line-height: 1.1;
+    }
+    
+    .logo h1 span {
+        display: block;
     }
 
     .nav-link {
@@ -760,6 +770,11 @@ a {
     .store-buttons {
         flex-direction: column;
         align-items: center;
+    }
+    
+    .hero-stats {
+        flex-direction: column;
+        gap: 16px;
     }
     
     .features-grid {
